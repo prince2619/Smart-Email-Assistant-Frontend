@@ -29,7 +29,7 @@ function App() {
     setLoading(true);
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/email/generate",
+         "https://smart-email-assistant-backend-8sd2.onrender.com/api/email/generate",
         { emailContent, tone }
       );
 
